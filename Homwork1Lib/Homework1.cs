@@ -6,7 +6,7 @@ namespace Homwork1Lib
     {
     public static double AtoPowerB(int A, int B)
     {
-        if(A == 0 && B <= 0)
+        if(B <= 0)
         {
             throw new ArgumentException("Сannot raise 0 to a negative power!");
         }
@@ -23,7 +23,7 @@ namespace Homwork1Lib
 
     public static (int division, int remainder) Task3(int A, int B)
     {
-        if(A == 0 && B == 0)
+        if(B == 0)
         {
             throw new ArgumentException("Сannot using zero vlues!");
         }

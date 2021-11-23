@@ -4,11 +4,11 @@ namespace Homwork1Lib
 {
     public class Homework1
     {
-    public static double AtoPowerB(int A, int B)
+    public static double Task1(int A, int B)
     {
-        if(B <= 0)
+        if((B - A)==0)
         {
-            throw new ArgumentException("Сannot raise 0 to a negative power!");
+            throw new ArgumentException("(B - A) cannot be zero!");
         }
 
         return (5 * A + B * B) / (B - A);

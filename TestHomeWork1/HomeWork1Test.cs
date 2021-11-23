@@ -9,10 +9,10 @@ namespace TestHomeWork1
         [TestCase(4, 3, -29)]
         [TestCase(6, 8, 47)]
         [TestCase(5, 4, -41)]
-        public void Task1_ShouldCalculate(double a, double b, double expected)
+        public void Task1_ShouldCalculate(int a, int b, int expected)
         {
             //Act
-            double actualResults = Homework1.Task1(a, b);
+            double actualResults = Homework1.AtoPowerB(a, b);
 
             //Assert
             Assert.AreEqual(expected, actualResults);
